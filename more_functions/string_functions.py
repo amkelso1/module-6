@@ -9,7 +9,8 @@ purpose:
 
 def multiply_string(message, n):
     """return a message a certain number of times"""
-    pass
+    return message * n
 
 
 if __name__ == '__main__':
+    print(multiply_string('alex', 7))
